@@ -2,7 +2,7 @@
 Hide files/messages in images and decode them later using this c++ steganography cli
 
 ## How to Use
-	### Encoding
+	### Encoding ###
 	`steg -i <input image> -o <output image name> [-s|-b] <data>`
 	Flag  				| Purpose
 	------------- | -------------
@@ -13,7 +13,7 @@ Hide files/messages in images and decode them later using this c++ steganography
 	
 
 ## How to Install
-	### On MAC/Linux
+	### On MAC/Linux ###
 	1. Run `make` in order to create program
 	2. Move steg to local bin with `mv ./steg /usr/local/bin`
 	3. Now as long as `/usr/local/bin` is in your path variable you can use steg
