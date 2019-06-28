@@ -4,6 +4,7 @@ Hide files/messages in images and decode them later using this c++ steganography
 ## How to Use
 ### Encoding
 `steg -i <input image> -o <output image name> [-s|-b] <data>`
+
 | Flag | Purpose |
 |---------------|-----------------------------------------------------------------------------------|
 | -i <filename> | Specify the original image to encode data into |
