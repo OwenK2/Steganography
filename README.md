@@ -7,11 +7,17 @@ Hide files/messages in images and decode them later using this c++ steganography
 
 | Flag | Purpose |
 |---------------|-----------------------------------------------------------------------------------|
-| -i <filename> | Specify the original image to encode data into |
-| -o <filename> | Name of image to create with encoded data |
-| -b <0-8> | Define bit depth (how many bits to encode with your data into each color channel) |
-| -s <string> | Specify a string to encode instead of a file |
+| -i \<filename\> | Specify the original image to encode data into |
+| -o \<filename\> | Name of image to create with encoded data |
+| -b \<0-8\> | Define bit depth (how many bits to encode with your data into each color channel) |
+| -s \<string\> | Specify a string to encode instead of a file |
 
+### Decoding
+`steg [-f] <filename>`
+
+| Flag | Purpose |
+|---------------|-----------------------------------------------------------------------------------|
+| -f | Create a file from the decoded file/message even if the data is just text |
 
 
 
