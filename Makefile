@@ -1,10 +1,10 @@
-CC				:= g++
+CC		:= g++
 TARGET		:= "steg"
 BUILDDIR	:= build
 SRCDIR		:= ./
 CFLAGS		:= -std=c++11 -g
 SRCEXT		:= cpp
-SOURCES		:= $(shell find $(SRCDIR) -type f -name '*.$(SRCEXT)')
+SOURCES 	:= $(wildcard $(SRCDIR)/*.$(SRCEXT))
 OBJECTS		:= $(patsubst $(SRCDIR)/%, $(BUILDDIR)/%, $(SOURCES:.$(SRCEXT)=.o))
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
